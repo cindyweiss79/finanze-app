@@ -1,0 +1,66 @@
+/* src/App.css */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f6fa;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 500px;
+  margin: 30px auto;
+  padding: 20px;
+  background: #ffffff;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  border-radius: 10px;
+}
+
+h2 {
+  text-align: center;
+  color: #2f3640;
+}
+
+.balance {
+  font-size: 1.5rem;
+  margin: 20px 0;
+  text-align: center;
+  color: #44bd32;
+}
+
+.transaction-list {
+  list-style: none;
+  padding: 0;
+}
+
+.transaction {
+  background-color: #dcdde1;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.transaction.positive {
+  border-left: 5px solid #44bd32;
+}
+
+.transaction.negative {
+  border-left: 5px solid #e84118;
+}
+
+form input,
+form button {
+  padding: 10px;
+  margin: 5px 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+form button {
+  background-color: #00a8ff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
